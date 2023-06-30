@@ -10,6 +10,8 @@
   
 
 /*navbar*/
+
+
 .nav-item{
   font-size: 18px;
   font-weight: 500;
@@ -179,7 +181,7 @@
   font-weight: 900;
   line-height: 125%;
   text-transform: none;
-  margin-left: 10%;
+  margin-left: 13%;
 }
 
 .txtt{
@@ -190,7 +192,7 @@
   max-height: 60vh ;
   max-width: 80vh;
   border-radius: 5%;
-  margin-left: 22vh;
+  margin-left: 16vh;
 }
 
 #cont{
@@ -447,7 +449,9 @@ background: linear-gradient(0deg, rgba(0,190,240,1) 41%, rgba(72,100,250,1) 90%)
   color: green;
 }
 
-
+.tituloicone{
+  margin-left: 15px;
+}
 
 .tituloicone h5 {
   font-family: 'Comfortaa', cursive;
@@ -461,7 +465,6 @@ background: linear-gradient(0deg, rgba(0,190,240,1) 41%, rgba(72,100,250,1) 90%)
 .bi-gear{
   
   font-size: 30px;
-  color: gray;
 }
 .bi-hourglass-split{
   font-size: 30px;
@@ -505,18 +508,19 @@ font-size: 30px;
 /*Planos*/
 
 .div5 {
-  height: 1000px;
+  height: 1300px;
   background: rgb(22,202,254);
-background: linear-gradient(180deg, rgba(22,202,254,1) 41%, rgba(72,100,250,1) 90%);
+  background: linear-gradient(180deg, rgba(22,202,254,1) 41%, rgba(72,100,250,1) 90%);
   padding: 15%;
 }
 
 .divtituloplanos{
-  margin-top: -15%;
+  margin-top: -20%;
 
 }
 
 .tituloplanos{
+  font-size: 50px;
   color: white;
   font-family: 'Comfortaa', cursive;
   font-weight: 700;
@@ -526,7 +530,7 @@ background: linear-gradient(180deg, rgba(22,202,254,1) 41%, rgba(72,100,250,1) 9
 }
 
 .container1 {
-  margin-top: 15%;
+  margin-top: 20%;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -550,7 +554,7 @@ background: linear-gradient(180deg, rgba(22,202,254,1) 41%, rgba(72,100,250,1) 9
   margin-top: -10px;
   width: 300px;
   height: auto;
-  padding: 10px 0;
+  padding: 1px 0;
   text-align: center;
   border-radius: 15px;
   box-shadow: 2px 5px 15px black;
@@ -579,7 +583,7 @@ background: linear-gradient(180deg, rgba(22,202,254,1) 41%, rgba(72,100,250,1) 9
 }
 
 .container1 .card .card-content ul{
-  padding: 10px 30px;
+  padding: 5px 20px;
   padding-bottom: 20px;
 }
 
@@ -605,7 +609,7 @@ background: linear-gradient(180deg, rgba(22,202,254,1) 41%, rgba(72,100,250,1) 9
 }
 
 .container1 .card .card-content button:hover{
-  background: #17ead9;
+  background: #8be6df;
   letter-spacing: 1.2px;
 }
 
@@ -1025,13 +1029,17 @@ about-section{
 }
 
 .titulopreco{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Comfortaa';
 }
 
 #subpreco{
   font-family: 'Inter', sans-serif;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 400;
 }
 
 #menu-legal{
