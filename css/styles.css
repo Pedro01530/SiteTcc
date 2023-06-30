@@ -447,7 +447,6 @@ background: linear-gradient(0deg, rgba(0,190,240,1) 41%, rgba(72,100,250,1) 90%)
 }
 
 .border:hover{
-  transform: ;
   transform: scale(1.1);
   transition: 400ms;
   background-color: #7ddfe3;
