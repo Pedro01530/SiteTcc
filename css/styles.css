@@ -268,6 +268,7 @@ background: linear-gradient(0deg, rgba(23,171,255,1) 28%, rgba(139,230,223,1) 90
 }
 
 .subtitulocarousel{
+  display: flex;
   text-align: center;
   font-family: 'Comfortaa';
   font-weight: 400;
@@ -402,20 +403,21 @@ background: linear-gradient(0deg, rgba(23,171,255,1) 28%, rgba(139,230,223,1) 90
 
 #div4{
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.527);
-  height: 1100px;
+  height: 1000px;
   background-color: #ffffff;
   border-radius: 20px;
   width: 80%;
 }
 
 .fundodiv4{
-  height: 1400px;
-  padding-top: 15%;
+
+  height: 1100px;
+  display: flex;
 }
 
 .background1{
   background: rgb(0,190,240);
-background: linear-gradient(0deg, rgba(0,190,240,1) 41%, rgba(72,100,250,1) 90%);
+  background: linear-gradient(0deg, rgba(0,190,240,1) 41%, rgba(72,100,250,1) 90%);
 }
 
 .ff{
@@ -427,9 +429,11 @@ background: linear-gradient(0deg, rgba(0,190,240,1) 41%, rgba(72,100,250,1) 90%)
   justify-content: center;
   font-family: 'Comfortaa';
   font-size: 45px;
-  font-weight: 800;
+  font-weight: 00;
   color: rgb(0, 0, 0);
 }
+
+
 
 #titulos{
   width: 600px;
@@ -438,7 +442,7 @@ background: linear-gradient(0deg, rgba(0,190,240,1) 41%, rgba(72,100,250,1) 90%)
 }
 
 .border{
-  width: 600px;
+  width: 550px;
   height: 60px;
   background-color: #ffffff;
   border-radius: 8px;
@@ -459,17 +463,27 @@ background: linear-gradient(0deg, rgba(0,190,240,1) 41%, rgba(72,100,250,1) 90%)
 }
 
 .tituloicone{
-  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  margin-left: 90px;
+  margin-top: -6%;
+
 }
 
 .tituloicone h5 {
   font-family: 'Comfortaa', cursive;
   display: flex;
   justify-content: center;
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 600;
-
+  margin-bottom: 100px;
 }
+
+#textog{
+  margin-top: -7%;
+}
+
 
 .bi-gear{
   
@@ -555,7 +569,7 @@ font-size: 30px;
   padding: 10px 0;
   text-align: center;
   border-radius: 15px;
-  box-shadow: 2px 5px 15px black;
+  box-shadow: 2px 5px 10px rgb(114, 114, 114);
   transition: transform 0
 }
 
